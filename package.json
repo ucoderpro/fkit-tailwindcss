@@ -1,0 +1,53 @@
+{
+  "name": "fkit-tailwindcss",
+  "version": "1.0.0",
+  "description": "Fkit (Front-end kit) based on webpack. Build HTML pages quickly and easily.",
+  "browserslist": [
+    "> 1%",
+    "last 3 versions"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
+    "update": "node update-packages.js"
+  },
+  "author": "Ulugbek Nuriddinov <info@ucoder.pro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ucoline/fkit/issues"
+  },
+  "homepage": "https://github.com/ucoline/fkit#readme",
+  "repository": "https://github.com/ucoline/fkit.git",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "autoprefixer": "^10.4.8",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "fkit-core": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "html-loader": "^4.1.0",
+    "html-minifier": "^4.0.0",
+    "js-beautify": "^1.14.5",
+    "mini-css-extract-plugin": "^2.6.1",
+    "path": "^0.12.7",
+    "postcss": "^8.4.16",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.7.2",
+    "sass": "^1.54.3",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.1.8",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
